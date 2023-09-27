@@ -1,0 +1,13 @@
+.dropdown {
+  position: relative;
+  
+  &__list {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+}
